@@ -70,7 +70,7 @@ La optimización redujo drásticamente el número de iteraciones. El uso de `mat
 | `for i in range(2, n):` | `limite = int(math.isqrt(n)) + 1` |
 | Complejidad: O(n) | Complejidad: O(√n) |
 
----
+
 
 ## 2. Exclusión de Números Pares
 
@@ -118,7 +118,7 @@ n ** 0.5
 - Devuelve directamente la raíz cuadrada entera.
 - Mejora el rendimiento del algoritmo.
 
----
+
 
 # Casos Base Anticipados
 
@@ -160,15 +160,11 @@ if n == 2:
 
 ## Beneficios Obtenidos
 
-Reducción del 99.58% en tiempo de ejecución  
+- Reducción del 99.58% en tiempo de ejecución  
 *(de 26.8s a 0.11s)*
-
-Código más legible y mantenible siguiendo las recomendaciones de PEP 8
-
-Menor consumo de recursos computacionales
-
-Aplicación de buenas prácticas de programación
-
+- Código más legible y mantenible siguiendo las recomendaciones de PEP 8
+- Menor consumo de recursos computacionales
+- Aplicación de buenas prácticas de programación
 
 
 ##  Aprendizajes Clave
